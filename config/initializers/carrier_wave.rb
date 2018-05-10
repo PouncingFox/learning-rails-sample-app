@@ -9,7 +9,7 @@ if Rails.env.production?
     :s3_secret_access_key  => ENV['xZcXoanoBAOOWAOKFvQQK1UnQx8MYE0oLNEtxWNN'],                     # required
     :region                 => 'us-west-1',                  # optional, defaults to 'us-east-1'
   }
-  config.fog_directory  = ENV['rails-tutorial-pouncingfox']                             # required
+  #config.fog_directory  = ENV['rails-tutorial-pouncingfox']                             # required
   config.fog_public     = false                                   # optional, defaults to true
   config.fog_attributes = {'Cache-Control'=>'max-age=315576000'}  # optional, defaults to {}
 end
