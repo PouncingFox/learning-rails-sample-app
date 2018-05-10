@@ -5,8 +5,8 @@ if Rails.env.production?
 
   config.fog_credentials = {
     :provider               => 'AWS',                        # required
-    :aws_access_key_id      => ENV['AKIAIOTMEAAQNWP4IJ5Q'],                        # required
-    :aws_secret_access_key  => ENV['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'],                     # required
+    :s3_access_key_id      => ENV['AKIAIOTMEAAQNWP4IJ5Q'],                        # required
+    :s3_secret_access_key  => ENV['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'],                     # required
     :region                 => 'us-west-1',                  # optional, defaults to 'us-east-1'
   }
   config.fog_directory  = ENV['rails-tutorial-pouncingfox']                             # required
