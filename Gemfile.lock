@@ -76,7 +76,7 @@ GEM
     ffi (1.9.23)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
-    fog (1.42.0)
+    fog (2.0.0)
       fog-aliyun (>= 0.1.0)
       fog-atmos
       fog-aws (>= 0.6.0)
@@ -406,7 +406,7 @@ DEPENDENCIES
   carrierwave (= 1.2.2)
   coffee-rails (= 4.2.2)
   faker (= 1.7.3)
-  fog (= 1.42)
+  fog (= 2.0.0)
   guard (= 2.13.0)
   guard-minitest (= 2.4.4)
   jbuilder (= 2.7.0)
